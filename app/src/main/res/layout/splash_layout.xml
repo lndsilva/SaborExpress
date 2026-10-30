@@ -5,18 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:textAllCaps="true"
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_margin="20dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sabor Express" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_sabor_express" />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"
